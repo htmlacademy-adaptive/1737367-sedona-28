@@ -14,14 +14,14 @@
           <button class="navigation__toggle" type="button"> <!-----burger---->
             <span class="vissually-hidden"> Открыть меню.</span>
           </button>
-          <div class="page-navigation__wrapper"> <!----- center---->
-            <ul class="page-navigation__list site-list">
+          <div class="navigation__wrapper"> <!----- center---->
+            <ul class="navigation__list site-list">
               <li class="site-list__item">
                 <a class="site-list__link site-list__link--current" href="index.html">Главная</a>
               </li>
 
               <li class="site-list__item">
-                <a class="site list__link" href="catalog.html"> Фото и видео </a>
+                <a class="site-list__link" href="catalog.html"> Фото и видео </a>
               </li>
 
               <li class="site-list__item">
@@ -39,13 +39,13 @@
     <main class="main-container">
       <section class="main-hero">
         <h1 class="visually-hidden"> Седона - городок в Аризоне </h1>
-        <div class="main-hero_image-container">
-          <img class="main-hero_image" src="./img/index-back-mobile.jpg.jpg" width="360" height="389" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks.">
+        <div class="main-hero__image-container">
+          <img class="main-hero__image" src="./img/index-back-mobile.jpg.jpg" width="360" height="389" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks.">
         </div>
       </section>
 
       <section class="advantages">
-        <h2 class="advantages_title">
+        <h2 class="advantages__title">
           Седона — небольшой городок в Аризон, заслуживающий большего!
         </h2>
         <p class="advantages__discription"> Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
@@ -73,34 +73,34 @@
           </li>
 
           <li class="advantages-item advantages-item--souvenirs">
-            <h3 class="advatages-item__title">Сувениры </h3>
+            <h3 class="advantages-item__title">Сувениры </h3>
             <p class="advantages-item__description">Не только китайского, но и местного производства!</p>
           </li>
 
-          <li class="advantages-item advantages-item--devil-bridge">
+          <li class="advantages-item advantages-item--devil-bridge advantage-item">
             <div class="advantage-item__text-wrapper">
               <h3 class="advantages-item__title">Там есть мост дьявола</h3>
               <p class="advantages__number"> — №2— </p>
-              <p class="advatnages-item__description">Да, по нему можно пройти! Если вы осмелитесь,конечно</p>
+              <p class="advantages-item__description">Да, по нему можно пройти! Если вы осмелитесь,конечно</p>
             </div>
             <img class="advantages-item__devil-bridge" src="./img/index-sedona-bridge-mobile.jpg" width="320" height="260" alt="Мост дьявола">
           </li>
 
           <li class="advantage-item advantage-item--square">
             <h3 class="advantage-item__title">Небольшая площадь</h3>
-            <p class="advantages__number--square"> — №3— </p>
+            <p class="advantages__number"> — №3— </p>
             <p class="advantage-item__description"> Все интересные места находятся очень близко</p>
           </li>
 
           <li class="advantage-item advantage-item--road">
             <h3 class="advantage-item__title">Красивая дорога</h3>
-            <p class="advantages__number--road"> — №4— </p>
+            <p class="advantages__number"> — №4— </p>
             <p class="advantage-item__description">Ехать в Седону из Лас-Вегас совсем не скучно!</p>
           </li>
 
           <li class="advantage-item advantage-item--tourists">
             <h3 class="advantage-item__title">Мало туристов</h3>
-            <p class="advantages__number--tourists"> — №5— </p>
+            <p class="advantages__number"> — №5— </p>
             <p class="advantage-item__description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
         </ul>
@@ -112,7 +112,7 @@
         <a class="order__button button" href="#">Найти гостиницу</a>
       </section>
 
-      <section class="main-map">
+      <section class="main-map order">
         <h2 class="vissually-hidden">Как доехать до Седоны</h2>
         <img class="order__img" src="" width="320" height="350" alt="Карта маршрута в Седону">
       </section>
@@ -121,7 +121,7 @@
 
     <footer class="main-footer">
       <div class="page-footer">
-        <p class="page-footer__hastag--text">#visitsedona</p>
+        <span class="page-footer__hashtag">#visitsedona</span>
       </div>
 
       <div class="main-footer__social social">
@@ -146,7 +146,7 @@
         </ul>
       </div>
 
-      <div class="main-footer__copyright">
+      <div class="main-footer__copyright copyright">
         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
           <img class="main-footer__img" width="320" height="350" alt="Карта маршрута" src="./img/index-sedona-footer-map-mobile.jpg">
           <span class="copyright__text">Разработано</span>
