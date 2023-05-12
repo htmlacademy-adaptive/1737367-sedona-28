@@ -1,0 +1,9 @@
+@mixin title($size: 18px,
+  $line:26px) {
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: $size;
+  line-height: $line;
+}
+

@@ -1,0 +1,24 @@
+.order {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 38px 18px 49px 18px;
+}
+
+.order__title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  margin: 0 29px 29px 20px;
+  color: $large-text;
+}
+
+.order__description {
+  color: $text-description;
+  margin-bottom: 32px;
+  margin-right: 11px;
+  margin-left: 11px;
+}
+
+.order__button {
+  color: #FFFFFF;
+}

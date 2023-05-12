@@ -1,0 +1,12 @@
+.main-hero {
+  text-align: center;
+}
+.main-hero__image-container {
+  position: relative;
+  background-image: url("../../img/Intro_sedona.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  background-color: #81b3d3;
+  min-height: 389px;
+}
