@@ -1,0 +1,27 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 320px;
+  line-height: 21px;
+  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  visibility: hidden
+}

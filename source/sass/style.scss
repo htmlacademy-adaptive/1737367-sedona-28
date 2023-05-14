@@ -1,1 +1,28 @@
 // Начните писать стили здесь
+//Базовые стили //
+@import "./base/colors.scss";
+@import "./base/button.scss";
+@import "./base/base.scss";
+@import "./base/fonts.scss";
+@import "./base/mixins.scss";
+//header//
+@import "./blocks/header/page-header.scss";
+@import "./blocks/header/navigation";
+@import "./blocks/header/site-list.scss";
+
+
+//form//
+
+//bloks//
+@import "./blocks/main-hero.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/advantages-item.scss";
+@import "./blocks/advantages-list.scss";
+@import "./blocks/order.scss";
+@import "./blocks/main-map.scss";
+@import "./blocks/site-list__link.scss";
+//footer//
+@import "./blocks/footer/main-footer.scss";
+@import "./blocks/footer/social.scss";
+@import "./blocks/footer/hashtag.scss";
+@import "./blocks/footer/copyright.scss";

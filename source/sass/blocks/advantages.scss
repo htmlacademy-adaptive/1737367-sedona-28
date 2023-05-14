@@ -1,0 +1,28 @@
+.advantages {
+  text-transform: uppercase;
+  padding-top: 34px;
+}
+
+.advantages__title {
+  text-align: center;
+  color: $large-text;
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 520px;
+  min-height: 80px;
+  margin: 0 auto 32px;
+
+
+}
+
+.advantages__discription {
+  color: $text-description;
+  text-align: center;
+  margin: 0 18px 16px;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

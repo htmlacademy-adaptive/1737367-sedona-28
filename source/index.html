@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="page body">
     <header class="page-header">
@@ -40,13 +41,13 @@
       <section class="main-hero">
         <h1 class="visually-hidden"> Седона - городок в Аризоне </h1>
         <div class="main-hero__image-container">
-          <img class="main-hero__image" src="./img/index-back-mobile.jpg.jpg" width="360" height="389" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks.">
+      
         </div>
       </section>
 
       <section class="advantages">
         <h2 class="advantages__title">
-          Седона — небольшой городок в Аризон, заслуживающий большего!
+          Седона — небольшой <br> городок в Аризоне, заслуживающий большего!
         </h2>
         <p class="advantages__discription"> Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
         </p>
@@ -78,7 +79,7 @@
           </li>
 
           <li class="advantages-item advantages-item--devil-bridge advantage-item">
-            <div class="advantage-item__text-wrapper">
+            <div class="advantages-item__text-wrapper">
               <h3 class="advantages-item__title">Там есть мост дьявола</h3>
               <p class="advantages__number"> — №2— </p>
               <p class="advantages-item__description">Да, по нему можно пройти! Если вы осмелитесь,конечно</p>
@@ -86,22 +87,22 @@
             <img class="advantages-item__devil-bridge" src="./img/index-sedona-bridge-mobile.jpg" width="320" height="260" alt="Мост дьявола">
           </li>
 
-          <li class="advantage-item advantage-item--square">
-            <h3 class="advantage-item__title">Небольшая площадь</h3>
+          <li class="advantages-item advantages-item--square">
+            <h3 class="advantages-item__title">Небольшая площадь</h3>
             <p class="advantages__number"> — №3— </p>
-            <p class="advantage-item__description"> Все интересные места находятся очень близко</p>
+            <p class="advantages-item__description"> Все интересные места находятся очень близко</p>
           </li>
 
-          <li class="advantage-item advantage-item--road">
-            <h3 class="advantage-item__title">Красивая дорога</h3>
+          <li class="advantages-item advantages-item--road">
+            <h3 class="advantages-item__title">Красивая дорога</h3>
             <p class="advantages__number"> — №4— </p>
-            <p class="advantage-item__description">Ехать в Седону из Лас-Вегас совсем не скучно!</p>
+            <p class="advantages-item__description">Ехать в Седону из Лас-Вегас совсем не скучно!</p>
           </li>
 
-          <li class="advantage-item advantage-item--tourists">
+          <li class="advantages-item advantages-item--tourists">
             <h3 class="advantage-item__title">Мало туристов</h3>
             <p class="advantages__number"> — №5— </p>
-            <p class="advantage-item__description">Большинство едет в Гранд Каньон и толпится там</p>
+            <p class="advantages-item__description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
         </ul>
       </section>
@@ -112,45 +113,47 @@
         <a class="order__button button" href="#">Найти гостиницу</a>
       </section>
 
-      <section class="main-map order">
+      <section class="main-map">
         <h2 class="vissually-hidden">Как доехать до Седоны</h2>
-        <img class="order__img" src="" width="320" height="350" alt="Карта маршрута в Седону">
+        <img class="main-map__img" src="" width="320" height="350" alt="Карта маршрута в Седону">
       </section>
 
     </main>
 
     <footer class="main-footer">
-      <div class="page-footer">
-        <span class="page-footer__hashtag">#visitsedona</span>
-      </div>
+      <div class="main-footer__wrapper">
+        <span class="main-footer__hashtag">#visitsedona</span>
+        <div class="main-footer__social">
+          <ul class="main-footer__social social-list">
+            <li class="social-list__item social-list__item--vkontakte">
+              <a class="social-list__button social-list__button--vkontakte" href="https://vk.com/htmlacademy">
+                <span class="vissually-hidden">Vkontakte.</span>
+              </a>
+            </li>
 
-      <div class="main-footer__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__button social__button--vkontakte" href="https://vk.com/htmlacademy">
-              <span class="vissually-hidden">Vkontakte.</span>
-            </a>
-          </li>
+            <li class="social-list__item social-list__item--telegram">
+              <a class="social-list__button social-list__button--telegram" href="https://vk.com/htmlacademy">
+                <span class="vissually-hidden"> Telegram. </span>
+              </a>
+            </li>
 
-          <li class="social__item">
-            <a class="social__button social__button--telegram" href="https://vk.com/htmlacademy">
-              <span class="vissually-hidden">Telegram.</span>
-            </a>
-          </li>
+            <li class="social-list__item social-list__item--youtube">
+              <a class="social-list__button social-list__button--youtube" href="https://vk.com/htmlacademy">
+                <span class="vissually-hidden">Youtube.</span>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-          <li class="social__item">
-            <a class="social__button social__button--youtube" href="https://vk.com/htmlacademy">
-              <span class="vissually-hidden">Youtube.</span>
-            </a>
-          </li>
-        </ul>
+
       </div>
 
       <div class="main-footer__copyright copyright">
         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-          <img class="main-footer__img" width="320" height="350" alt="Карта маршрута" src="./img/index-sedona-footer-map-mobile.jpg">
           <span class="copyright__text">Разработано</span>
           <span class="vissually-hidden">HTML Academy.</span>
+          <svg class="copyright__logo" width="24" height="29">
+          </svg>
         </a>
       </div>
 

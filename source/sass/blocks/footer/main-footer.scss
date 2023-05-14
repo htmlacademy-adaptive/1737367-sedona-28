@@ -1,0 +1,14 @@
+
+.main-footer__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-footer__social {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin: 0 82px 0px 82px;
+  padding: 0;
+}
